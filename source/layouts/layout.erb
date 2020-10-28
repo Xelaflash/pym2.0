@@ -32,6 +32,6 @@
   <%= yield %>
   <%= partial 'layouts/shared/details' %>
   <%= javascript_include_tag "bundle" %>
-  <%= javascript_include_tag "https://maps.googleapis.com/maps/api/js?key=#{ENV['GOOGLE_API_BROWSER_KEY']}&callback=initMap" %>
+  <%#= javascript_include_tag "https://maps.googleapis.com/maps/api/js?key=#{ENV['GOOGLE_API_BROWSER_KEY']}&callback=initMap" %>
 </body>
 </html>
