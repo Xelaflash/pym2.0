@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="card card-contact-side">
+        <div class="flex-section">
+          <div class="left text-center">
+            <h4>Pierre-Yves Mori</h4>
+            <div class="mail">
+              <i class="fas fa-envelope"></i>
+              <a href="mailto:mori.pierreyves@gmail.com">mori.pierreyves@gmail.com</a><br>
+            </div>
+            <div class="phone">
+              <i class="fas fa-phone-volume"></i><a href="tel:+33779831965"> +33 7 79 83 19 65</a>
+            </div>
+          </div>
+          <div class="right hidden-xs">
+            <% link_to  "mailto:mori.pierreyves@gmail.com" do %>
+            <%= image_tag "pym-blue.jpg", class: "avatar"%>
+            <% end %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <%= link_to "Mentions légales", "/legal.html", id:"legal" %>
+</div>

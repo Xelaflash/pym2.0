@@ -1,0 +1,116 @@
+a{
+  color: black;
+}
+
+h5 {
+  margin-top: 6.5px;
+  font-size: 17px;
+  margin-bottom: 0;
+}
+
+h4 {
+  margin-bottom: 6.5px;
+}
+
+.flex-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text_center{
+  text-align: center;
+}
+
+.avatar {
+  height: 110px;
+  width: 110px;
+  margin-right: 20px;
+  padding-top: 10px;
+
+}
+
+.left {
+  padding-top: 5px;
+  margin-left: 30px;
+}
+
+#legal {
+  font-size: 14px;
+  font-style: italic;
+  float:right;
+  padding: 0 25px 5px 0;
+}
+
+// iphone du 4 au x
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .card-contact-side {
+      margin-left: 0px;
+      width: 100%;
+      padding: 20px;
+      margin-bottom: 10px;
+        h4 {
+          margin-left: 5px;
+          margin-top: 0;
+          padding-bottom: 20px;
+        }
+        h5 {
+        margin-top: 6.5px;
+        font-size: 17px;
+        margin-bottom: 3px;
+        }
+    }
+    .left {
+      margin: 0 auto;
+    }
+    .fa-phone-volume {
+      margin-left: -17px;
+      padding-right: 10px;
+    }
+    .fa-envelope {
+    padding-right: 10px;
+    }
+    .mail {
+      margin-bottom: 10px;
+    }
+    #legal {
+      padding: 0 0 5px 0;
+    }
+  }
+
+@media (max-width: 767px) {
+  .left {
+    margin: 0 auto;
+  }
+}
+
+
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1366px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .card-contact-side {
+      margin: 50px 0 20px 204px;
+      width: 80%;
+    }
+    .left {
+      padding-top: 5px;
+      margin-left: 30px;
+    }
+}
+
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1366px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .left {
+      padding-top: 5px;
+      margin-left: 10px;
+    }
+
+}

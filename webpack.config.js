@@ -49,6 +49,10 @@ module.exports = {
     ],
   },
   plugins: [
+    new webpack.ProvidePlugin({
+      $: "jquery",
+      jQuery: "jquery"
+  }),
     new webpack.optimize.ModuleConcatenationPlugin(),
     new PurgecssPlugin({
       paths: glob.sync(`${path.join(__dirname, 'src')}/**/*`, { nodir: true }),

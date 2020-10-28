@@ -22,11 +22,15 @@
   <meta name="twitter:image:src" content="<%= data.meta.meta_image %>">
   <meta name="google-site-verification" content="LYMKeOI5ceQH7Pv6kscy5dEZL5mg8QURoc6GTjbIErQ" />
   <%= partial "layouts/shared/favicon" %>
-  <%= stylesheet_link_tag 'application', media: 'all' %>
+  <%= stylesheet_link_tag "application" %>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
 </head>
 
 <body>
+  <%= partial 'layouts/shared/navbar' %>
+  <%= partial 'layouts/shared/sidebar' %>
   <%= yield %>
+  <%= partial 'layouts/shared/details' %>
   <%= javascript_include_tag "bundle" %>
 </body>
 

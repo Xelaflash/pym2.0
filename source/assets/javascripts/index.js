@@ -1,1 +1,2 @@
-console.log('Hello from webpacker index.js');
+import 'jquery';
+import 'bootstrap';

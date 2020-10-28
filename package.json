@@ -35,6 +35,8 @@
     "build": "NODE_ENV=production ./node_modules/webpack/bin/webpack.js --bail -p"
   },
   "dependencies": {
+    "jquery": "^3.5.1",
+    "bootstrap": "3.4.1",
     "core-js": "^3.6.5"
   }
 }
