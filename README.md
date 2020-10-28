@@ -1,2 +1,6 @@
-# Middleman Template
-Template with Webpack - Eslint - prettier (wes bos config) - Autoprefixer - Babel polyfill
+# PYM TCCE
+Static website coded with Middleman (Oct 2020) for a Therapist in Bordeaux, France.
+
+https://www.pym-therapeute-tcc.fr/
+
+​

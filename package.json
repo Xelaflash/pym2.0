@@ -1,9 +1,9 @@
 {
-  "name": "middleman-webpack-template",
+  "name": "pym_tcce",
   "version": "1.0.0",
-  "description": "template",
+  "description": "new version of PYM TCCE website",
   "main": "index.js",
-  "repository": "https://github.com/Xelaflash/middleman-webpack-template",
+  "repository": "https://github.com/Xelaflash/pym2.0",
   "author": "agros",
   "license": "MIT",
   "devDependencies": {
