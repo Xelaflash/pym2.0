@@ -1,26 +1,15 @@
-<h1 align="center">Welcome to PYM TCCE 👋</h1>
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
-  <a href="#" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
-  </a>
-</p>
+<h1 align="center">PYM TCCE</h1>
 
 > Migration of my first website after my coding bootcamp from *Ruby on Rails to Middleman*
 
-### 🏠 [Homepage](https://www.pym-therapeute-tcc.fr/)
 
-## Install
+### 🏠 [Website](https://www.pym-therapeute-tcc.fr/)
 
-```sh
-yarn install
-```
-
-## Usage
-
-```sh
-yarn run start
-```
+## Stack
+ - Middleman (Ruby static site generator)
+ - Ruby
+ - Netlify (deploy & hosting)
+ - Webpack (module bundler)
 
 ## Author
 
@@ -28,9 +17,3 @@ yarn run start
 
 * Website: https://www.alexgwebdev.com/
 
-## Show your support
-
-Give a ⭐️ if this project helped you!
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
